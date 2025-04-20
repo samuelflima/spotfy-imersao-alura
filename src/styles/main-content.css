@@ -95,6 +95,7 @@
 /* PLAYLIST */
 .playlist-container {
     height: 68vh;
+    width: fit-content;
     padding-top: 16px;
     margin: 10px;
     border-radius: 10px;
@@ -120,10 +121,10 @@
 
 /* SCROLL */
 .offer__scroll-container {
-    max-height: 43vh;
+    max-height: fit-content;
     margin: 24px;
-    overflow-x: auto;
     overflow-y: auto;
+    overflow-x: hidden;
 }
 
 .offer__scroll-container::-webkit-scrollbar {
